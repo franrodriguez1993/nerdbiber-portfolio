@@ -4,6 +4,11 @@
   top: 0;
   width: 100%;
   font-family: var(--font2);
+  z-index: 10;
+}
+
+.changeColorNavbar {
+  background-color: var(--color7);
 }
 .navbar-nav {
   margin-left: 3rem;
@@ -26,6 +31,8 @@
 @media (max-width: 992px) {
   .navbar {
     text-align: center;
+    position: static;
+    background-color: var(--color7);
   }
   .navbar-nav {
     margin-left: 0;

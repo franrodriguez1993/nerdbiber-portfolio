@@ -1,9 +1,26 @@
-import React from "react";
+import React, { useState } from "react";
 import { NavLink } from "react-router-dom";
 import "../../css/Accesories/Navbar.css";
+
 const Navbar = () => {
+  const [colorChange, setColorchange] = useState(false);
+
+  //Change color nav:
+  const changeNavbarColor = () => {
+    if (window.scrollY >= 80) {
+      setColorchange(true);
+    } else {
+      setColorchange(false);
+    }
+  };
+  window.addEventListener("scroll", changeNavbarColor);
+
   return (
-    <nav className="navbar navbar-expand-lg">
+    <nav
+      className={`navbar navbar-expand-lg ${
+        colorChange && "changeColorNavbar"
+      }`}
+    >
       <div className="container-fluid">
         <img src="/assets/img/biber.png" alt="biber" className="navbar-logo" />
         <button
