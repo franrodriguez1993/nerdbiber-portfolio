@@ -3,6 +3,7 @@
   position: fixed;
   top: 0;
   width: 100%;
+  font-family: var(--font2);
 }
 .navbar-nav {
   margin-left: 3rem;
