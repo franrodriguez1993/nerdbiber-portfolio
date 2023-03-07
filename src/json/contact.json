@@ -1,0 +1,20 @@
+{
+  "devs": [
+    {
+      "id": 1,
+      "name": "Franco Rodriguez",
+      "nacionality": "Argentina",
+      "speciality": "MERN FullStack Developer",
+      "github": "https://github.com/franrodriguez1993",
+      "linkedin": "https://www.linkedin.com/in/franco-rodr%C3%ADguez-512075244/"
+    },
+    {
+      "id": 2,
+      "name": "Alejandro Gandini",
+      "nacionality": "Argentina",
+      "speciality": "Frontend Developer - Data Scientist",
+      "github": "https://github.com/AlejandroGandini",
+      "linkedin": "https://www.linkedin.com/in/alejandro-gandini-a38356268/"
+    }
+  ]
+}
