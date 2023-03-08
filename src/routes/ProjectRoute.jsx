@@ -2,6 +2,7 @@ import React, { useEffect, useState } from "react";
 import ProjectCard from "../components/ProjectRoute/ProjectCard";
 import "../css/ProjectRoute/ProjectRoute.css";
 import projectJson from "../json/projects.json";
+
 const ProjectRoute = () => {
   const [projects, setProjects] = useState([]);
 

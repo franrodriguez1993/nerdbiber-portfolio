@@ -19,6 +19,7 @@ const ProjectCard = ({ project }) => {
         <a href={project.url} target="_blank" rel="noreferrer">
           <img src={wwwIcon} alt="web" className="projectcard-icon" />
         </a>
+
         <a href={project.github} target="_blank" rel="noreferrer">
           <img src={githubIcon} alt="github" className="projectcard-icon" />
         </a>
