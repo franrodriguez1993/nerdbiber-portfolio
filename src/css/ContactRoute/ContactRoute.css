@@ -1,0 +1,42 @@
+.contactroute-title_container {
+  margin-top: 10rem;
+  font-family: var(--font1);
+}
+.contactroute-title {
+  width: 0;
+  overflow: hidden;
+  white-space: nowrap;
+  color: var(--color4);
+  border-right: 0.15em solid var(--color1);
+  animation: typing 2s steps(26) 1s 1 normal both, blink 1s steps(1) infinite;
+}
+
+.ct-top_mail,
+.ct-top_fiverr {
+  display: flex;
+  align-items: center;
+  margin: 2rem;
+}
+
+.ct-top_mail-img,
+.ct-top_fiverr-img {
+  margin: 1rem;
+  width: 4rem;
+}
+.ct-top_mail-text,
+.ct-top_fiverr-text {
+  font-family: var(--font2);
+}
+
+.contactcard-button_github,
+.contactcard-button_linkedin {
+  width: 4rem;
+}
+
+.ct-bottom {
+  display: flex;
+}
+
+.contactcard-container {
+  margin: 2rem;
+}
