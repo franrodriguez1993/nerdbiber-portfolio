@@ -8,35 +8,111 @@
   white-space: nowrap;
   color: var(--color4);
   border-right: 0.15em solid var(--color1);
-  animation: typing 2s steps(26) 1s 1 normal both, blink 1s steps(1) infinite;
+  animation: typing 1.2s steps(12) 1s 1 normal both, blink 1s steps(1) infinite;
 }
 
-.ct-top_mail,
-.ct-top_fiverr {
+.ct-top {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 90%;
+  box-shadow: 3px 2px 3px var(--color1);
+  animation: fadein 4s;
+}
+
+.ct-contact-card {
   display: flex;
   align-items: center;
-  margin: 2rem;
+  justify-content: space-around;
+  width: 20rem;
+  margin: 2rem 0;
+}
+.ct-contact-card-img_container,
+.ct-contact-card-text_container {
+  text-align: center;
 }
 
-.ct-top_mail-img,
-.ct-top_fiverr-img {
-  margin: 1rem;
-  width: 4rem;
+.ct-contact-card-img_container {
+  width: 30%;
 }
-.ct-top_mail-text,
-.ct-top_fiverr-text {
+.ct-contact-card-text_container {
+  width: 70%;
+  color: var(--color3);
+}
+
+.ct-contact-card:hover {
+  cursor: pointer;
+}
+.ct-contact-card-text_container:hover {
+  color: var(--color1);
+  font-weight: bolder;
+}
+
+.ct-contact-card-img {
+  width: 3rem;
+}
+.ct-contact-card-text {
   font-family: var(--font2);
-}
-
-.contactcard-button_github,
-.contactcard-button_linkedin {
-  width: 4rem;
+  margin: 0;
 }
 
 .ct-bottom {
   display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  border-bottom: 2px solid var(--color6);
+  background-color: var(--color7);
+  width: 100%;
+  margin: 3rem 0;
+  animation: fadeinUp 4s;
 }
 
-.contactcard-container {
-  margin: 2rem;
+.contactroute-subtitle {
+  color: var(--color4);
+  margin-top: 2rem;
+  font-weight: bolder;
+  animation: fadeinUp 4s;
+}
+
+/**  CARD DEVS   **/
+
+.contactcard {
+  margin: 4rem 2rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #fff;
+  width: 25rem;
+  /* border: 2px solid var(--color1);
+  border-radius: 7px; */
+  box-shadow: 3px 1px 3px var(--color1);
+}
+
+.contactcard:hover {
+  box-shadow: 5px 1px 3px var(--color1);
+  transform: scale(1.01);
+  cursor: pointer;
+}
+
+.contactcard-name {
+  font-weight: bolder;
+  margin: 1rem 0;
+  color: var(--color5);
+  font-family: var(--font1);
+}
+.contactcard-speciality {
+  color: var(--color3);
+  font-family: var(--font2);
+}
+.contactcard-container_icon {
+  margin: 1rem 0;
+}
+.contactcard-icons {
+  width: 2.5rem;
+  margin: 0 1rem;
+}
+.contactcard-icons:hover {
+  transform: scale(1.07);
 }

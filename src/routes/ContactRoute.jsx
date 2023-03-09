@@ -18,15 +18,24 @@ const ContactRoute = () => {
         <h1 className="contactroute-title">Contact us</h1>
       </div>
       <section className="ct-top">
-        <div className="ct-top_mail">
-          <img src={MailIcon} className="ct-top_mail-img" />
-          <p className="ct-top_mail-text">NerdBiber@gmail.com</p>
-        </div>
-        <div className="ct-top_fiverr">
-          <img src={fiverrIcon} className="ct-top_fiverr-img" />
-          <p className="ct-top_fiverr-text">Fiverr.com/nerdbiber</p>
-        </div>
+        <article className="ct-contact-card">
+          <div className="ct-contact-card-img_container">
+            <img src={MailIcon} className="ct-contact-card-img" alt="mail" />
+          </div>
+          <div className="ct-contact-card-text_container">
+            <p className="ct-contact-card-text">NerdBiber@gmail.com</p>
+          </div>
+        </article>
+        <article className="ct-contact-card">
+          <div className="ct-contact-card-img_container">
+            <img src={fiverrIcon} className="ct-contact-card-img" alt="fiver" />
+          </div>
+          <div className="ct-contact-card-text_container">
+            <p className="ct-contact-card-text">Fiverr.com/nerdbiber</p>
+          </div>
+        </article>
       </section>
+      <h2 className="contactroute-subtitle">Developers</h2>
       <section className="ct-bottom">
         {contact.length !== 0 &&
           contact.map((d) => <ContactCard persona={d} key={d.id} />)}

@@ -10,6 +10,7 @@
 .changeColorNavbar {
   background-color: var(--color7);
 }
+
 .navbar-nav {
   margin-left: 3rem;
 }
@@ -25,7 +26,14 @@
 .nav-link:hover {
   transform: scale(1.05);
 }
+.active {
+  color: var(--color1) !important;
+}
 
+.changeLinksColor {
+  color: #ffffff;
+  text-shadow: 1px 1px 1px var(--color4);
+}
 /* MEDIA QUERIES*/
 
 @media (max-width: 992px) {

@@ -30,3 +30,19 @@
   border-right: 0.15em solid var(--color4);
   animation: typing 4s steps(55) 1s 1 normal both, blink 1s steps(1) infinite;
 }
+
+/** MEDIA QUERIES**/
+@media screen and (max-width: 992px) {
+  .homeroute-container_title {
+    margin-top: -8rem;
+  }
+}
+@media (max-width: 700px) {
+  .homeroute-title {
+    font-size: 3rem;
+  }
+
+  .homeroute-subtitle {
+    font-size: 0.8rem;
+  }
+}

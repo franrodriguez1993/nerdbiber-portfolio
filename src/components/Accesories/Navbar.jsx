@@ -37,17 +37,26 @@ const Navbar = () => {
         <div className="collapse navbar-collapse" id="navbarNav">
           <ul className="navbar-nav">
             <li className="nav-item">
-              <NavLink className="nav-link" aria-current="page" to="/">
+              <NavLink
+                className={`nav-link ${colorChange && "changeLinksColor"}`}
+                to="/"
+              >
                 Home
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="project">
+              <NavLink
+                className={`nav-link ${colorChange && "changeLinksColor"}`}
+                to="project"
+              >
                 Projects
               </NavLink>
             </li>
             <li className="nav-item">
-              <NavLink className="nav-link" to="contact">
+              <NavLink
+                className={`nav-link ${colorChange && "changeLinksColor"}`}
+                to="contact"
+              >
                 Contact
               </NavLink>
             </li>

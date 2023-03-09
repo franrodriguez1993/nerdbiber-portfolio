@@ -4,16 +4,22 @@ import GithubIcon from "../../svg/github.svg";
 
 const ContactCard = ({ persona }) => {
   return (
-    <div className="contactcard-container">
-      <p>{persona.name}</p>
+    <div className="contactcard">
+      <p className="contactcard-name">{persona.name}</p>
       <p>{persona.nationality}</p>
-      <p>{persona.speciality}</p>
-      <a href={persona.github} target="_blank">
-        <img src={GithubIcon} className="contactcard-button_github" />
-      </a>
-      <a href={persona.linkedin} target="_blank">
-        <img src={linkidinIcon} className="contactcard-button_linkedin" />
-      </a>
+      <p className="contactcard-speciality">{persona.speciality}</p>
+      <div className="contactcard-container_icon">
+        <a href={persona.github} target="_blank" rel="noreferrer">
+          <img src={GithubIcon} className="contactcard-icons" alt="github" />
+        </a>
+        <a href={persona.linkedin} target="_blank" rel="noreferrer">
+          <img
+            src={linkidinIcon}
+            className="contactcard-icons"
+            alt="linkedin"
+          />
+        </a>
+      </div>
     </div>
   );
 };

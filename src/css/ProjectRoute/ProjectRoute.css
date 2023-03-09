@@ -8,28 +8,27 @@
   white-space: nowrap;
   color: var(--color4);
   border-right: 0.15em solid var(--color1);
-  animation: typing 2s steps(26) 1s 1 normal both, blink 1s steps(1) infinite;
+  animation: typing 1s steps(20) 1s 1 normal both, blink 1s steps(1) infinite;
 }
 
 .projectroute-container_card {
+  background-color: #fff;
+  width: 90%;
   margin: 3rem 0;
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-around;
+  flex-wrap: wrap;
 }
 
 /**  ======  PROJECT CARD  ======  **/
 
 .projectcard {
-  margin: 2rem 0;
-  width: 25rem;
+  margin: 2rem;
+  width: 20rem;
   display: flex;
   flex-direction: column;
   align-items: center;
-  background-color: var(--color6);
-  border-right: 2px solid var(--color1);
-  border-bottom: 2px solid var(--color1);
-  border-radius: 7px;
+  box-shadow: 3px 2px 5px var(--color1);
   animation: fadeinUp 1.5s ease-in forwards;
 }
 .projectcard:hover {
@@ -41,8 +40,6 @@
 .projectcard-img {
   width: 100%;
   object-fit: cover;
-  border-top-right-radius: 7px;
-  border-top-left-radius: 7px;
   border-bottom: 2px solid var(--color1);
   opacity: 0.95;
 }
