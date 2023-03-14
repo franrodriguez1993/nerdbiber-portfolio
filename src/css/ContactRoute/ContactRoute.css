@@ -56,6 +56,8 @@
 .ct-contact-card-text {
   font-family: var(--font2);
   margin: 0;
+  text-decoration: none;
+  color: var(--color3);
 }
 
 .ct-bottom {

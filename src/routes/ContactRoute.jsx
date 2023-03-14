@@ -23,7 +23,14 @@ const ContactRoute = () => {
             <img src={MailIcon} className="ct-contact-card-img" alt="mail" />
           </div>
           <div className="ct-contact-card-text_container">
-            <p className="ct-contact-card-text">NerdBiber@gmail.com</p>
+            <a
+              className="ct-contact-card-text"
+              href="mailto:NerdBiber@gmail.com"
+              target="_blank"
+              rel="noreferrer"
+            >
+              NerdBiber@gmail.com
+            </a>
           </div>
         </article>
         <article className="ct-contact-card">
@@ -31,7 +38,14 @@ const ContactRoute = () => {
             <img src={fiverrIcon} className="ct-contact-card-img" alt="fiver" />
           </div>
           <div className="ct-contact-card-text_container">
-            <p className="ct-contact-card-text">Fiverr.com/nerdbiber</p>
+            <a
+              className="ct-contact-card-text"
+              href="https://www.fiverr.com/nerdbiber"
+              target="_blank"
+              rel="noreferrer"
+            >
+              fiverr.com/nerdbiber
+            </a>
           </div>
         </article>
       </section>

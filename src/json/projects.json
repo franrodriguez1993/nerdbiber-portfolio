@@ -3,7 +3,7 @@
     {
       "id": 1,
       "name": "Spartan Food",
-      "type": "Static-Web",
+      "type": "Multipage-Web",
       "preview": "/assets/img/projects/spartanfood.png",
       "github": "https://github.com/franrodriguez1993/spartanfood.git",
       "url": "https://spartanfoodrestaurant.onrender.com/"
@@ -11,7 +11,7 @@
     {
       "id": 2,
       "name": "Linux Tec",
-      "type": "Static-Web",
+      "type": "Multipage-Web",
       "preview": "/assets/img/projects/linuxtec.png",
       "github": "https://github.com/franrodriguez1993/linuxtec.git",
       "url": "https://linuxtec.vercel.app/"
@@ -19,10 +19,18 @@
     {
       "id": 3,
       "name": "Ruby | Medical Center",
-      "type": "Static-Web",
+      "type": "Multipage-Web",
       "preview": "/assets/img/projects/rubymedicalcenter.png",
       "github": "https://github.com/franrodriguez1993/ruby-medical-center.git",
       "url": "https://ruby-medical-center.vercel.app/"
+    },
+    {
+      "id": 4,
+      "name": "Cellphone",
+      "type": "Landing Page",
+      "preview": "/assets/img/projects/moto.png",
+      "github": "https://github.com/franrodriguez1993/cellphoneLandingPage.git",
+      "url": "https://cellphonelandingpage.vercel.app/"
     }
   ]
 }
